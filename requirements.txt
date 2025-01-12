@@ -1,0 +1,7 @@
+- @types/react
+- @types/react-dom
+- firebase
+- next
+- react
+- react-dom
+- typescript

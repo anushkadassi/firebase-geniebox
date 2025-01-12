@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import LoginPage from './components/LoginPage';
-import CombinedCsvAndSearchPage from './components/CombinedCsvAndSearchPage';
+import LoginPage from './pages/LoginPage';
+import CombinedCsvAndSearchPage from './pages/Components/CombinedCsvAndSearchPage';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
